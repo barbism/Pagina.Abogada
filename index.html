@@ -9,6 +9,8 @@
     <title>Bienvenidos a mi pagina!</title>
 </head>
 <body>
+
+
     <header>
         <nav class="navbar navbar-expand-lg  navbar-dark" style="background-color: rgba(97, 2, 18, 0.199);">
             <div class="container">
@@ -41,12 +43,126 @@
           </nav>
 
     </header>    
+<hr>
+
+    <h1>SOBRE MI</h1>
+
+<p style="color: rgb(236, 228, 236) ;">Abogada, recibida en la UBA en el año 2021, con orientación en Derecho Privado. </p>
+<p style="color:rgb(236, 228, 236) ;">Actualmente me encuentro trabajando como analista funcional en una empresa de soluciones tecnologicas para departamentos legales</p>
+
+<hr>
+<hr>
+<hr>
+<hr>
 
 
 
+    <div class="container">
+        <h3 align="center">SERVICIOS</h3>
+    
 
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        
+        <div class="col">
+          <div class="card">
+            <img src="./Imagenes/que-son-los-derechos-civiles.webp" class="card-img-top" alt="DERECHO CIVIL">
+            <div class="card-body">
+              <h5 class="card-title">DERECHO CIVIL</h5>
+              <p class="card-text">Accidentes de Transito. Sucesiones. Divorcios. Alimentos. Tenencia de hijos menores. Representación judicial.  </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./Imagenes/contrato.jpg" class="card-img-top" alt="CONTRATOS">
+            <div class="card-body">
+              <h5 class="card-title">CONTRATOS</h5>
+              <p class="card-text">Redacción e inscripción de contratos civiles y comerciales. Asesoramiento jurídico. Negociación y ejecución de los mismos.  </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./Imagenes/descarga.jpg" class="card-img-top" alt="DERECHO LABORAL">
+            <div class="card-body">
+              <h5 class="card-title">DERECHO LABORAL</h5>
+              <p class="card-text"> Despidos. Trabajo en negro (No registrado o parcialmente registrado). Indemnizaciones laborales. Accidentes de trabajo. Mobbing- acoso laboral. </p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
 
+<hr>
+<hr>
+<hr>
 
+    <h4 style="color: rgb(131, 125, 125) ;">Formulario de contacto</h4>
+    <form action="https://formspree.io/f/xoqbdwaq" method="post">
+        <div>
+       <label style="color:white ;" for="username">Nombre Completo</label>
+       <input type="text" name="username" id="username" placeholder="Escribe tu Nombre"> 
+    </div>
+    
+    <div>
+        <label style="color:white ;" for="username">Correo Electronico:</label>
+        <input type="email" name="email" id="email" placeholder="user@email.com"> 
+     </div>
+    
+    
+     <div>
+        <label style="color:white ;" for="nacimiento">Fecha de nacimiento</label>
+        <input type="date" name="nacimiento" id="nacimiento" placeholder="Fecha de nacimiento"> 
+     </div>
+    
+     <div>
+        <label style="color:white ;" for="tipo">Tipo de consulta</label>
+        <select name="tipo" id="tipo"
+                <option value="abogado"> Personal</option>
+                <option value="ingeniero"> Personal</option>
+                <option value="ingeniero"> Empresa</option>
+                <option value="medico"> En nombre de 3°</option> 
+    
+        </select> 
+    
+        
+     </div>
+    
+     <div>
+        <label style="color:white ;" for="pais"> Elegi tu pais </label>
+        <select name="pais" id="pais">
+        <option value="ar"> Argentina </option>
+        <option value="uy"> Uruguay </option>
+        <option value="br"> Brasil </option>
+    </select>
+    </div>
+    
+    <div> <label  style="color:white ;" for="pass">DNI</label> 
+        <input type="password" id="pass" name="pass" pattern=".{8,}">  </div>
+    
+        <div> <label  style="color:white ;" for="pass_confirm"> Confirmar DNI </label> 
+            <input type="password" id="pass_confirm" name="pass_confirm" pattern=".{8,}">  </div>
+    
+    
+    <div>
+        <label style="color:white ;"  for="comentarios"> Dejame Tu Comentarios</label> <br>
+        <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+    </div>
+    
+    <div>
+        <p style="color: white ;"> ¿Primera Consulta? </p>
+        <input  id="Primera consulta-opt-01" type="radio" value="S" name="Primera">
+        <label style="color:white ;" for="Primera-opt-01">SI</label>
+        <input id="primera consulta-opt-02" type="radio" value="N" name="primera">
+        <label style="color:white ;" for="primera-opt-02">NO </label>
+    </div>
+    
+
+    
+     <button type="submit"> Enviar </button>
+    
+    </form>
 
 </body>
 </html>

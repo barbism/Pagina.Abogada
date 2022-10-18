@@ -5,24 +5,27 @@ body{
     background-attachment: fixed;
     background-position: center center ;
     background-color: rgb(157, 83, 226); 
-    color:rgb(182, 0, 112)
-
-
+    
 
 }
 
 
 
+.container{
+    color: rgb(89, 90, 87);
+}
 
 
 
 
+h1{
+    color: rgb(161, 161, 152);
+}
 
-h2{
-    background-color: green;
-    color: yellow;
+h3{
+    color: rgb(161, 161, 152);
 }
 
 p{
-    color: red;
+    color: rgb(5, 3, 3);
 }
