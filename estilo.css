@@ -1,5 +1,6 @@
-body{
-    background-image: url("./Imagenes/istockphoto-1284016425-170667a.jpg");
+body {
+    box-sizing: content-box;
+   background-image: url("./Imagenes/istockphoto-1284016425-170667a.jpg");
     background-size:auto
     
 }
