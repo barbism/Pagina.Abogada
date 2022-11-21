@@ -6,22 +6,24 @@ body {
 }
 
 .container{
-    color: rgb(219, 219, 200);
+    color: rgb(252, 252, 245);
 }
 
 
 h1{
-    color: rgba(219, 219, 200, 0.74);
+    color: rgb(248, 248, 237);
 }
 
 
-
+.color{
+	color: white;
+}
 
 
 
 
 .section1{
-	background-image: url("./ImageneS/que-son-los-derechos-civiles.webp");
+	background-image: url("./Imagenes/que-son-los-derechos-civiles.webp");
   	height: 500px;
 	background-attachment: fixed;
 	background-position: center;
@@ -51,7 +53,7 @@ h1{
 	line-height: 2;
 }
 .section3{
-	background-image: url("./Imagenes/descarga.jpg");
+	background-image: url("./Imagenes/principios-del-derecho-laboral.avif");
   	height: 500px;
 	background-attachment: fixed;
 	background-position: center;
@@ -61,20 +63,30 @@ h1{
 	margin:50px;
 }
 
-.unas{
-	text-align: center;
-}
+.section3 p{
+	background-color: #ddc4f550;
+	color:#1b0a2b;
+	line-height: 2;}
+
+.section4{
+		background-image: url("./Imagenes/diplom9.jpg");
+		  height: 500px;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 30px;
+		margin:50px;
+	}
+.section4 p{
+		background-color: #ddc4f5a4;
+		color:#1b0a2b;
+		line-height: 2;	
 
 
 
 
-h3 {
-    color: white;
-}
 
-h4{
-    color: white;
-}
 
 div{
     color: white;
@@ -84,9 +96,7 @@ p{
     color: black
 }
 
-h5{
-    color: white;
-}
+
 
 .contacto{
     text-align: center;
