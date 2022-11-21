@@ -10,21 +10,74 @@ body {
 }
 
 
-
 h1{
     color: rgba(219, 219, 200, 0.74);
 }
 
-h3{
-    color: rgb(219, 219, 200, 0.74);
+
+
+
+
+
+
+.section1{
+	background-image: url("./ImageneS/que-son-los-derechos-civiles.webp");
+  	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 30px;
+	margin:50px;
+}
+.section1 p{
+	background-color: #ddc4f550;
+	color:#1b0a2b;
+	line-height: 2;
+}
+.section2{
+	background-image: url("./Imagenes/contrato.jpg");
+  	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 30px;
+	margin:50px;
+}
+.section2 p{
+	background-color: #ddc4f550;
+	color:#1b0a2b;
+	line-height: 2;
+}
+.section3{
+	background-image: url("./Imagenes/descarga.jpg");
+  	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 30px;
+	margin:50px;
+}
+
+.unas{
+	text-align: center;
+}
+
+
+
+
+h3 {
+    color: white;
 }
 
 h4{
-    color: rgb(219, 219, 200, 0.74)
+    color: white;
 }
 
 div{
-    color: rgb(219, 219, 200, 0.74 )
+    color: white;
 }
 
 p{
@@ -32,5 +85,10 @@ p{
 }
 
 h5{
-    color: black
+    color: white;
+}
+
+.contacto{
+    text-align: center;
+
 }
